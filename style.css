@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,600;0,900;1,300&display=swap');
 
 body {
     margin: 0;
@@ -18,4 +18,30 @@ li {
 
 .header, .hero {
     background-color: #1f2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10vw;
+}
+
+.header p {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 16px 0;
+}
+
+.header a {
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.header ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
 }
