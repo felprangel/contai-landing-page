@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,600;0,900;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,900;1,300&display=swap');
 
 body {
     margin: 0;
@@ -35,10 +35,10 @@ li {
     color: #f9faf8;
     font-size: 24px;
     font-weight: 600;
-    margin: 16px 0;
+    margin: 8px 0;
 }
 
-.header a {
+.header a, #hero-text p {
     color: #e5e7eb;
     font-size: 18px;
     font-weight: 300;
@@ -48,4 +48,37 @@ li {
     display: flex;
     justify-content: space-around;
     gap: 24px;
+    margin: 8px;
+}
+
+#hero-content {
+    display: flex;
+}
+
+#hero-text {
+    display: flex;
+    flex-direction: column;
+    width: 70vh;
+    padding: 15vh 20vh;
+}
+
+#hero-text h1 {
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+#hero-text p {
+    margin: 0;
+}
+
+#hero-text button {
+    background-color: #3882f6;
+    border: 0;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 18px;
+    margin-top: 16px;
+    border-radius: 10px;
+    max-width: fit-content;
 }
