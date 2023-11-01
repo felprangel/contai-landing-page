@@ -53,6 +53,7 @@ li {
 
 #hero-content {
     display: flex;
+    align-items: center;
 }
 
 #hero-text {
@@ -81,4 +82,8 @@ li {
     margin-top: 16px;
     border-radius: 10px;
     max-width: fit-content;
+}
+
+#hero-content img {
+    padding: 15vh 20vh 15vh 0;
 }
