@@ -87,3 +87,13 @@ li {
 #hero-content img {
     padding: 15vh 20vh 15vh 0;
 }
+
+.diferenciais {
+    background-color: #f9faf8;
+}
+
+.diferenciais h1 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #1f2937
+}
