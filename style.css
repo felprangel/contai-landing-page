@@ -90,10 +90,51 @@ li {
 
 .diferenciais {
     background-color: #f9faf8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .diferenciais h1 {
     font-size: 36px;
     font-weight: 600;
-    color: #1f2937
+    color: #1f2937;
+    padding: 7vh;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 4vw;
+}
+
+.card {
+    width: 234px;
+}
+
+.card img{
+    border-radius: 7px;
+    filter: grayscale(70%);
+}
+
+.image {
+    border: 4px solid #3882f6;
+    border-radius: 10px;
+    height: 298px
+}
+
+.card h4, .card p {
+    margin-left: 7px;
+}
+
+.card h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #1f2937;
+}
+
+.card p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #1f2937;
 }
