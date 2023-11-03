@@ -114,7 +114,9 @@ li {
 
 .card img{
     border-radius: 7px;
-    filter: grayscale(70%);
+    filter: grayscale(50%) hue-rotate(60deg);
+    height: 298px;
+    width: 226px;
 }
 
 .image {
