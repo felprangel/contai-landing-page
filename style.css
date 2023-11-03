@@ -140,3 +140,26 @@ li {
     font-weight: 300;
     color: #1f2937;
 }
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 15vh 20vh;
+}
+
+.quote p {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+    margin: 0;
+}
+
+.quote h3 {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: 600;
+    color: #1f2937;
+    margin-right: 40px;
+}
