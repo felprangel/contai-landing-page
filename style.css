@@ -206,3 +206,12 @@ button:hover {
     font-weight: 300;
     margin: 0;
 }
+
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 5vh 7vh;
+    text-align: center;
+}
