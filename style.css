@@ -20,6 +20,10 @@ li {
     list-style: none;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 .header, .hero {
     background-color: #1f2937;
 }
@@ -77,8 +81,8 @@ li {
     border: 0;
     color: #f9faf8;
     font-size: 18px;
-    font-weight: 500;
-    padding: 8px 18px;
+    font-weight: 600;
+    padding: 10px 24px;
     margin-top: 16px;
     border-radius: 10px;
     max-width: fit-content;
@@ -158,8 +162,47 @@ li {
 
 .quote h3 {
     align-self: flex-end;
+    color: #1f2937;
     font-size: 24px;
     font-weight: 600;
-    color: #1f2937;
     margin-right: 40px;
+}
+
+.contato {
+    background-color: #f9faf8;
+    padding: 15vh 23vh;
+}
+
+.container-contato {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    padding: 10vh 15vh;
+    border-radius: 15px;
+}
+
+.container-contato button {
+    background-color: #3882f6;
+    border: 1px solid #f9faf8;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 8px 18px;
+    border-radius: 10px;
+}
+
+.contato-text {
+    color: #f9faf8;
+}
+
+.contato-text h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.contato-text p {
+    font-size: 18px;
+    font-weight: 300;
+    margin: 0;
 }
